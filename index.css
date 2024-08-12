@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+    gap: 10px;
+}
+
+.container div{
+    width: 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    border: 1px solid;
+}
